@@ -1,0 +1,66 @@
+.embedd{
+background-image: url("image/bon6.jpg");
+height:650px;
+color:white;
+padding-top:30%;
+padding-left:30px;
+font-size:60px;
+font-weight: 600;
+text-transform:uppercase;
+text-align:center;
+}
+.pure{
+	background-color:#F4F4F4;
+	height:600px;
+	font-size:20px;
+	font-weight:600;
+}
+.pure h2{
+	color:darkblue;
+}
+.more{
+	margin:100px;
+}
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.embedd{
+background-image: url("image/bon6.jpg");
+height:650px;
+color:white;
+padding-top:30%;
+padding-left:30px;
+font-size:60px;
+font-weight: 600;
+text-transform:uppercase;
+text-align:center;
+}
+.col-5{
+	width:100%;
+	margin:0;
+	padding-bottom:40px;
+}
+.more{
+	margin:0;
+}
+}	
+
+@media (max-width: 768px) {
+	
+  .embedd{
+background-image: url("image/bon9.jpg");
+height:520px;
+color:white;
+padding-top:30%;
+font-size:30px;
+font-weight: 300;
+}
+.col-5{
+	width:100%;
+	margin:0;
+	padding-bottom:40px;
+}
+.more{
+	margin:0;
+}
+}

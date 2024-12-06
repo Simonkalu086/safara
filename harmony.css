@@ -1,0 +1,619 @@
+
+
+
+header{
+height:68px;
+background-color:darkblue;
+color:white;
+padding-top:0;
+}
+.move{
+padding-left:30px;
+padding-top:7px;
+font-size:20px;
+float:right;
+margin:15px;
+
+}
+.moves{
+padding-left:30px;
+padding-top:20px;
+font-size:20px;
+
+}
+nav{
+	height:60px;
+}
+#a{
+	text-decoration:none;
+	color:white;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+ul{
+list-style-type:none;
+margin:0;
+padding:10px;
+color:black;
+overflow:hidden;
+float:right;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+cursor: pointer;
+text-transform:uppercase;
+}
+
+li{
+float:left;
+
+font-size:17px;
+margin:18px;
+
+}
+
+
+
+ .columns {   
+            /* box toward left of the window screen */  
+        float: left;   
+            /*divide each counter box in equal size*/  
+            /* 4 counters of 25% of screen size*/  
+        width: 25%;   
+            /*spacing between each box */  
+        padding: 4px;   
+    }   
+          
+    .rows {   
+                /* Specify the margin for the row class */  
+        margin: 3px;  
+    }   
+          
+    /* Style the class named block*/  
+    .blocks {   
+        padding: 10px;   
+        text-align: center;   
+        background-color: darkblue;   
+        color: white;   
+        }   
+      
+    /* Provide styling for when mouse will move over the counter*/    
+    .blocks:hover {   
+        transform: scale(1.1);   
+        background-color: brown;   
+        transition-duration: 2s;   
+        color: white;  
+		
+    }   
+          
+.sec2 p{
+	font-weight:600;
+	
+}
+.element{
+margin-left:30px;
+}
+.embed{
+background-image: url("image/bonnn.jpg");
+height:850px;
+color:white;
+padding-top:30%;
+padding-left:30px;
+font-size:60px;
+font-weight: 600;
+
+}
+.sec2{
+margin:20px;
+background-color:
+}
+.team-teacher-info {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  width:300px;
+  transition: .6s;
+}
+
+.col-1{
+	width:60%;
+}
+.col-2{
+	margin-left:10%;
+}
+
+.sec3{
+margin:100px;
+
+}
+
+
+.bord{
+	border-style:groove;
+	height:450px;
+	width:255px;
+	 border: 2px solid #F4F4F4;
+ 
+  box-shadow: 5px 5px 5px 5px #F4F4F4;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: blue; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+footer{
+	height:500px;
+	background-color:darkblue;
+	color:white;
+	font-weight:600;
+	padding:30px;
+}
+footer p{
+	font-size:20px;
+	
+}
+.fa-facebook{
+	padding:10px;
+	font-size:20px;
+	background: #F4F4F4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+	color:blue;
+	border:1px #F4F4F4;
+	margin:15px;
+}
+.close{
+
+	padding:100px;
+	float:right;
+
+}
+.sim{
+	padding-left:7%;
+	
+}
+.col-3{
+	width:33.33%;
+}
+.fa-instagram{
+	padding:10px;
+	font-size:20px;
+	background: #F4F4F4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+	color:blue;
+	border:1px #F4F4F4;
+	margin:15px;
+}
+.fa-youtube{
+	padding:10px;
+	font-size:20px;
+	background: #F4F4F4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+	color:blue;
+	border:1px #F4F4F4;
+	margin:15px;
+}
+.fa-twitter{
+	padding:10px;
+	font-size:20px;
+	background: #F4F4F4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+	color:blue;
+	border:1px #F4F4F4;
+	margin:15px;
+}
+#btn{
+padding:15px;
+width:200px;
+font-size:15px;
+font-weight:600;
+background-color:white;
+color:black;
+text-align:center;
+margin:auto;
+justify-content:center;
+border-width:1px;
+border-style:solid;
+border-color: rgb(26, 24, 27); 
+display: grid;  
+}
+
+
+#btn:hover{
+ background-color: blue;
+color:white;
+ }
+/* RESPONSIVE NAVBAR MENU STARTS */
+
+/* CHECKBOX HACK */
+
+input[type=checkbox] {
+  display: none;
+} 
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  user-select: none;
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.menu {
+    display:none;
+    position: absolute;
+    background-color:darkblue;
+	color:white;
+    right: 0;
+    left: 0;
+	height:90%;
+    text-align: center;
+    padding: 16px;
+  }
+ .menu li{
+	 width:88%;
+	
+ }
+  .menu li:hover {
+    display: inline-block;
+    
+    transition: 0.3s ease;
+	color:black;
+  }
+
+  .menu li + li {
+    margin-top:18px;
+	
+  }
+
+  input[type=checkbox]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+	width:50px;
+	
+  }
+  .element{
+	width:60px;
+	height:60px;
+	margin:10px;
+	padding-bottom:20px;
+	
+}
+header{
+	
+}
+
+  nav{
+	  height:40px;
+  }
+  
+  .embed{
+background-image: url("image/bonnn.jpg");
+height:520px;
+color:white;
+padding-top:30%;
+font-size:30px;
+font-weight: 300;
+}
+  
+ .col-1{
+	width:100%;
+	 line-height: 1.6;
+	  text-align: justify;
+	    letter-spacing: -1px;
+}
+.col-2{
+	width:100%;
+	margin-left:30%;
+} 
+  
+  .team-teacher-info {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  width:240px;
+  transition: .6s;
+}
+
+  .bord{
+	border-style:groove;
+	height:550px;
+	width:100%;
+	 border: 2px solid #F4F4F4;
+ 
+  box-shadow: 5px 5px 5px 5px #F4F4F4;
+}
+.sec3{
+	margin:0;
+}
+.sec3 h2{
+	text-align:center;
+	
+}
+.team{
+	margin-top:30px;
+	
+}
+.sec2 p{
+	font-weight:200;
+	
+}
+.natt{
+	margin-top:30px;
+	
+}
+.fa-user{
+	display:none;
+}
+footer{
+	height:800px;
+	background-color:darkblue;
+	color:white;
+	font-weight:400;
+}
+.col-3{
+	width:100%;
+}
+.col-4{
+	display:none;
+}
+.close{
+
+	margin:0px;
+	float:left;
+
+}
+.columns {   
+            /* box toward left of the window screen */  
+        float: left;   
+            /*divide each counter box in equal size*/  
+            /* 4 counters of 25% of screen size*/  
+        width: 100%;   
+            /*spacing between each box */  
+        padding: 4px;  
+			height:150px;
+			margin-bottom:10px;
+    }   
+          
+    .rows {   
+                /* Specify the margin for the row class */  
+        margin: 3px;  
+		height:450px;
+    }   
+          
+    /* Style the class named block*/  
+    .blocks {   
+        padding: 10px;   
+        text-align: center;   
+        background-color: darkblue;   
+        color: white;   
+		
+        }   
+      
+    /* Provide styling for when mouse will move over the counter*/    
+    .blocks:hover {   
+        transform: scale(1.1);   
+        background-color: brown;   
+        transition-duration: 2s;   
+        color: white;   
+    }   
+.move{
+padding-left:30px;
+padding-top:7px;
+font-size:15px;
+float:right;
+margin:15px;
+}
+.moves{
+padding-left:30px;
+padding-top:20px;
+font-size:15px;
+
+}
+}	
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+ .menu {
+    display:none;
+    position: absolute;
+    background-color:darkblue;
+	color:white;
+    right: 0;
+    left: 0;
+	height:90%;
+    text-align: center;
+    padding: 16px;
+  }
+ .menu li{
+	 width:88%;
+	
+ }
+  .menu li:hover {
+    display: inline-block;
+    
+    transition: 0.3s ease;
+	color:black;
+  }
+
+  .menu li + li {
+    margin-top:18px;
+	
+  }
+
+  input[type=checkbox]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+	width:50px;
+	
+  }
+.element{
+	width:60px;
+	height:60px;
+	margin:10px;
+	padding-bottom:20px;
+	
+}
+header{
+	
+}
+
+  nav{
+	  height:40px;
+  }
+  
+  .embed{
+background-image: url("image/bonnnn.jpg");
+height:520px;
+color:white;
+padding-top:30%;
+font-size:30px;
+font-weight: 300;
+}
+  
+ .col-1{
+	width:100%;
+	 line-height: 1.6;
+	  text-align: justify;
+	    letter-spacing: -1px;
+}
+.col-2{
+	width:100%;
+} 
+  
+  .team-teacher-info {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  width:240px;
+  transition: .6s;
+}
+
+  .bord{
+	border-style:groove;
+	height:450px;
+	width:100%;
+	 border: 2px solid #F4F4F4;
+ 
+  box-shadow: 5px 5px 5px 5px #F4F4F4;
+}
+.sec3{
+	margin:0;
+}
+.sec3 h2{
+	text-align:center;
+	
+}
+.team{
+	margin-top:30px;
+	
+}
+.sec2 p{
+	font-weight:200;
+	
+}
+.natt{
+	margin-top:30px;
+	
+}
+.fa-user{
+	display:none;
+}
+footer{
+	height:800px;
+	background-color:darkblue;
+	color:white;
+	font-weight:400;
+}
+.col-3{
+	width:100%;
+}
+.col-4{
+	display:none;
+}
+.close{
+
+	margin:0px;
+	float:left;
+
+}
+.columns {   
+            /* box toward left of the window screen */  
+        float: left;   
+            /*divide each counter box in equal size*/  
+            /* 4 counters of 25% of screen size*/  
+        width: 100%;   
+            /*spacing between each box */  
+        padding: 4px;  
+			height:150px;
+			margin-bottom:10px;
+    }   
+          
+    .rows {   
+                /* Specify the margin for the row class */  
+        margin: 3px;  
+		height:450px;
+    }   
+          
+    /* Style the class named block*/  
+    .blocks {   
+        padding: 10px;   
+        text-align: center;   
+        background-color: darkblue;   
+        color: white;   
+		
+        }   
+      
+    /* Provide styling for when mouse will move over the counter*/    
+    .blocks:hover {   
+        transform: scale(1.1);   
+        background-color: brown;   
+        transition-duration: 2s;   
+        color: white;   
+    }   
+.move{
+padding-left:30px;
+padding-top:7px;
+font-size:15px;
+float:right;
+margin:15px;
+}
+.moves{
+padding-left:30px;
+padding-top:20px;
+font-size:15px;
+
+}
+}
