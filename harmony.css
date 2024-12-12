@@ -1,4 +1,13 @@
-
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
 
 
 header{
@@ -139,6 +148,8 @@ margin:100px;
   box-shadow: 5px 5px 5px 5px #F4F4F4;
 }
 #myBtn {
+	width:40px;
+	height:40px;
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -149,7 +160,7 @@ margin:100px;
   background-color: blue; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+  padding: 10px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
