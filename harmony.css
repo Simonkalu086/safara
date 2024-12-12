@@ -8,8 +8,9 @@
   display: inline-block;
   padding: 5px;
 }
-
-
+body{
+font-family: Rubik;
+}
 header{
 height:68px;
 background-color:darkblue;
@@ -28,15 +29,13 @@ margin:15px;
 padding-left:30px;
 padding-top:20px;
 font-size:20px;
-
+color:white;
 }
 nav{
 	height:60px;
+	
 }
-#a{
-	text-decoration:none;
-	color:white;
-}
+
 a{
 	text-decoration:none;
 	color:black;
@@ -282,10 +281,15 @@ input[type=checkbox] {
 	color:white;
     right: 0;
     left: 0;
-	height:90%;
+	height:80%;
     text-align: center;
     padding: 16px;
+	
   }
+  a{
+	text-decoration:none;
+	color:white;
+}
  .menu li{
 	 width:88%;
 	
@@ -316,9 +320,6 @@ input[type=checkbox] {
 	height:60px;
 	margin:10px;
 	padding-bottom:20px;
-	
-}
-header{
 	
 }
 
@@ -450,34 +451,6 @@ padding-top:20px;
 font-size:15px;
 
 }
-	.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 5px;
-}
-
-	#myBtn {
-	width:40px;
-	height:40px;
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: blue; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 10px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
 }	
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
@@ -487,43 +460,22 @@ font-size:15px;
     background-color:darkblue;
 	color:white;
     right: 0;
-    left: 0;
-	height:90%;
+    left: 100px;
+	height:62%;
     text-align: center;
-    padding: 16px;
+    padding: 3px;
+	 margin-top:10px; 
+}
   }
+    a{
+	text-decoration:none;
+	color:white;
+}
  .menu li{
 	 width:88%;
-	
+	   padding: 2px;
+	  
  }
-	.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 5px;
-}
-
-	#myBtn {
-	width:40px;
-	height:40px;
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: blue; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 10px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
   .menu li:hover {
     display: inline-block;
     
@@ -532,19 +484,33 @@ font-size:15px;
   }
 
   .menu li + li {
-    margin-top:18px;
+    margin-top:1px;
+	padding-top:8px;
+	padding-bottom:2px;
+	border-top: 1px dashed #E9E9E9;
+    display: block;
+	width:90%;
+	color:white;
+	
 	
   }
 
   input[type=checkbox]:checked ~ .menu {
     display: block;
-  }
-
-  .hamburger {
-    display: block;
-	width:50px;
 	
   }
+  
+ 
+  
+  .hamburger {
+        display: block;
+        width:50px;
+    }
+
+
+   
+	
+  
 .element{
 	width:60px;
 	height:60px;
@@ -682,5 +648,8 @@ padding-left:30px;
 padding-top:20px;
 font-size:15px;
 
+}
+.empty{
+	color:white;
 }
 }
