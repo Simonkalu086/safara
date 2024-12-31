@@ -20,7 +20,7 @@
 	
 	<!-- FAVICONS ICON ============================================= -->
 	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="image/pinkguy2.jpg" />
+	<link rel="shortcut icon" type="image/x-icon" href="image/lucia.jpeg" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
 	<title>Lucia</title>
@@ -31,16 +31,34 @@
 	  
 	<style>
 body{
+
+ background-image: url("image/trest.jpg") no repeat;
+opacity:20;
 margin: 0;
   padding: 0;
-  background-color: #ff69b4;
+   background-color:blue;
   font-family: Arial, sans-serif;
   color: white;
   text-align: center;
 
 }
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+	opacity:0.5;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url("image/tree.jpg");
+    background-size: cover;
+    background-repeat:repeat;
+    background-position: center;
+	
+}
 .menu{
-background-color: #ffb6c1;
+ background-image:linear-gradient(90deg,#1055ff 0%,#e91286 100%);
   padding: 15px;
     padding-bottom: 15px;
   margin: 10px auto;
@@ -54,7 +72,7 @@ background-color: #ffb6c1;
 }
 .menu-img{
 max-width: 90%;
-  width: 600px;
+  width: 500px;
   border-radius: 50%;
   border: 3px solid #fff;
   animation: wiggle 2s infinite;
@@ -71,14 +89,14 @@ h1{
 font-size: 3.5rem;
   font-weight: bold;
   color: white;
-  text-shadow: 0 0 8px #ff69b4, 0 0 16px #ff69b4, 0 0 24px #ff69b4, 0 0 32px #ff1493, 0 0 48px #ff1493;
+ 
   letter-spacing: 5px;
   font-family: 'Arial', sans-serif;
   animation: neon-glow 1.5s ease-in-out infinite alternate;
 }
 .move{
 font-size: 1.8rem;
-  color: #ff1493;
+  color: #fff;
   font-family: 'Arial', sans-serif;
   font-style: italic;
   letter-spacing: 3px;
@@ -92,7 +110,7 @@ font-size: 1.8rem;
 }
 .method {
   width: 100%;
-  background-color: #ff1493;
+  background-color: blue;
   color: white;
   overflow: hidden;
   white-space: nowrap;
@@ -133,14 +151,14 @@ border-radius: 50%;
 margin-top: 20px;
   margin-bottom: 40px;
   padding: 10px 20px;
-  background-color: #ff1493;
+  background: linear-gradient(90deg,#1055ff 0%,#e91286 100%);
   border: none;
   border-radius: 25px;
   width:180px;
   font-size: 1.2rem;
   color: white;
   cursor: pointer;
-  box-shadow: 0px 0px 10px rgba(255, 20, 147, 0.7);
+ 
   transition: transform 0.3s;
 }
 .c-btn:hover {
@@ -148,7 +166,7 @@ margin-top: 20px;
 }
 h2 {
   font-size: 2.5rem;
-  color: #ff69b4;
+  color: #fff;
   font-family: 'Verdana', sans-serif;
   font-weight: bold;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
@@ -156,7 +174,7 @@ h2 {
 }
 p {
   font-size: 1rem;
-  color: #ff1493;
+  color: #fff;
 }
 
 
@@ -187,7 +205,7 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
 }
 .footer {
-  background-color: #d1007a;
+   background-image:linear-gradient(90deg,#1055ff 0%,#e91286 100%);
   color: white;
   text-align: center;
   padding: 20px;
@@ -243,9 +261,9 @@ font-size: 3.0rem;
 			<section class="menu">
 			<h1>$LUCIA</h1>
 			
-			<p class="move">The First WIF Dev Coin, and The First Celebrity Coin On Solana</p>
+			<p class="move">The First Female Main Character in GTA</p>
 			
-			 <img class="menu-img" src="image/pinkguy2.jpg">
+			 <img class="menu-img" src="image/lucia.jpeg">
 			 
 			 
 			 <div class="social">
