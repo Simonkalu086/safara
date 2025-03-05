@@ -35,6 +35,11 @@ font-size:15px;
 margin-top:20px;
 font-weight:200;
 }
+.bg{
+	background-color:#f4f4f4;
+	height:700px;
+	padding-top:100px;
+}
 
 #btn{
 padding:15px;
@@ -167,7 +172,7 @@ height:48px;
 border: 1px solid #e7272d;
   border-radius: 50px;
 font-size:17px;
- margin-left:46%;
+ margin-left:42%;
  
 
 }
@@ -188,7 +193,7 @@ font-size:17px;
 }
 
 .contain{
-width:100vw;
+width:95vw;
 
 display:flex;
 align-items:center;
@@ -208,6 +213,7 @@ nav{
 	height:60px;
 	
 }
+
 ul{
 list-style-type:none;
 margin:0;
@@ -380,6 +386,21 @@ input[type=checkbox] {
     padding: 16px;
 	margin-top:19px;
   }
+  .bg{
+	background-color:#f4f4f4;
+	height:1100px;
+	padding-top:100px;
+}
+  .column{
+border-bottom: dotted 1px #022169;
+width:100%;
+padding-top:16px;
+margin:0;
+}
+.cup{
+	display:none;
+	
+}
  .menu li{
 	 width:88%;
 	
@@ -594,10 +615,7 @@ th,td{
 .section h2{
 	font-size:20px;
 }
-.cup{
-	display:none;
-	
-}
+
 
  .bord{
  background-color:#F4F4F4;
@@ -634,29 +652,43 @@ font-weight:600;
 	
 }
 
- .dot{
-background: #e7272d;
-  border: 2px solid #e7272d;
- color:#fff;
- text-decoration: none;
- font-weight:600;
- font-size: 13px;
-  padding: 0 10px;
-  line-height: 30px;
-  position: relative;
-  margin-left:16px;
-  margin-top:5px;
- }
+ /* Media Queries for Mobile */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Stack the columns vertically on mobile screens */
+    }
 
+    .col {
+        max-width: 100%; /* Allow the columns to take full width */
+        margin-bottom: 20px; /* Add space between stacked items */
+    }
 
-.sta{
- border:2px #F4F4F4;
- font-size:20px;
- width:25px;
- padding-bottom:5px;
-  margin-top:8px;
- }
+    .groove {
+        max-width: 80%; /* Limit image size on smaller screens */
+        height: auto; /* Ensure images scale proportionally */
+    }
 
+    .sta, .dot {
+        font-size: 16px; /* Slightly smaller buttons for mobile */
+        padding: 6px 12px; /* Adjust button padding */
+    }
+
+    #countlabel, #countslabel, #countsslabel, #countssslabel, #countllabel, #countlllabel {
+        font-size: 16px; /* Make the quantity label text slightly smaller */
+    }
+	
+}
+
+/* Media Queries for Extra Small Mobile Devices (Portrait Phone) */
+@media screen and (max-width: 480px) {
+    .sta, .dot {
+        font-size: 14px; /* Even smaller buttons */
+        padding: 5px 10px; /* Smaller padding */
+    }
+
+    #countlabel, #countslabel, #countsslabel, #countssslabel, #countllabel, #countlllabel {
+        font-size: 14px; /* Smaller text on very small screens */
+    }
 
 
 }
