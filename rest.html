@@ -156,7 +156,7 @@
     </div>
    
     <div class="col">
-      <img class="groove" src="image/MALT.jpg">&nbsp
+      <img class="groove" src="image/malt.jpg">&nbsp
 	    <button class="dot">ADD TO CART</button>&nbsp
 	   <button class="sta" id="decreasesssBtn">-</button>&nbsp
 			<label id="countssslabel">0</label>&nbsp
@@ -188,12 +188,13 @@
   </div>
 </div>
 </section>
-<b r><br>
+
 <div class="section">
 <table style="width:85%">
  <tr>
+ <div class="cup">
   <th style="width:50%"><img class="cup" src="image/saff.png"></th>
-  
+  </div>
 	<th><h1>reservation</h1>
 		<h2>BOOK YOUR TABLE<h2>
   
@@ -254,60 +255,7 @@
     </div>
   </div>
 </div>
-<br><br><br><br><br>
-
-<section class="bord">
 <br><br>
-
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      <h2>Contact Us</h2>
-	 <br>
-	 <p>09037741968</p>
-	 <p>Email Address:
-	 <br> Kalusimon92@gmail.com</p>
-    </div>
-    <div class="col west">
-    <h2>Available On</h2>
-	 <br>
-	 <div class="container text-center">
-  <div class="row">
-    <div class="col">
-      <p>monday</p>
-    </div>
-   
-	 <div class="col">
-      <p>tuesday</p>
-    </div>
-    
-	 <div class="col">
-      <p>wednesday</p>
-    </div>
-    
-	 <div class="col">
-      <p>Thursday</p>
-    </div>
-    <div class="col">
-      <p>Friday</p>
-    </div>
-  </div>
-</div>
-    </div>
-    <div class="col">
-     <div class="col">
-      <h2>Our Store</h2>
-	 <br>
-	 <p>Safara Foods & Confectionaries</p>
-	 <p>Address: no. 2A Sanbel House by Gwari Motors Bosso Road, Minna, Nigeria State.</p>
-    </div>
-	 
-    </div>
-  </div>
-</div>
-
-</section>
-
 <footer>
 
 <div class="container text-center">
@@ -332,79 +280,31 @@
 </footer>
 
 <script>
-let count=0;
+// Function to handle both increase and decrease logic
+function setupCartItem(decreaseButtonId, increaseButtonId, countLabelId) {
+    let count = 0;
 
-document.getElementById("decreaseBtn").onclick=function(){
-count-=1;
-document.getElementById("countlabel").innerHTML= count;
+    // Decrease function
+    document.getElementById(decreaseButtonId).onclick = function () {
+        count -= 1;
+        if (count < 0) count = 0; // Prevent negative values
+        document.getElementById(countLabelId).innerHTML = count;
+    };
+
+    // Increase function
+    document.getElementById(increaseButtonId).onclick = function () {
+        count += 1;
+        document.getElementById(countLabelId).innerHTML = count;
+    };
 }
 
-document.getElementById("increaseBtn").onclick=function(){
-count+=1;
-document.getElementById("countlabel").innerHTML= count;
-}
-
-let mount=0;
-
-document.getElementById("decreasesBtn").onclick=function(){
-mount-=1;
-document.getElementById("countslabel").innerHTML= mount;
-}
-
-document.getElementById("increasesBtn").onclick=function(){
-mount+=1;
-document.getElementById("countslabel").innerHTML= mount;
-}
-
-let vount=0;
-
-document.getElementById("decreasessBtn").onclick=function(){
-vount-=1;
-document.getElementById("countsslabel").innerHTML= vount;
-}
-
-document.getElementById("increasessBtn").onclick=function(){
-vount+=1;
-document.getElementById("countsslabel").innerHTML= vount;
-}
-
-let yount=0;
-
-document.getElementById("decreasesssBtn").onclick=function(){
-yount-=1;
-document.getElementById("countssslabel").innerHTML= yount;
-}
-
-document.getElementById("increasesssBtn").onclick=function(){
-yount+=1;
-document.getElementById("countssslabel").innerHTML= yount;
-}
-
-
-let tount=0;
-
-document.getElementById("decreasseBtn").onclick=function(){
-tount-=1;
-document.getElementById("countllabel").innerHTML= tount;
-}
-
-document.getElementById("increasseBtn").onclick=function(){
-tount+=1;
-document.getElementById("countllabel").innerHTML= tount;
-}
-
-let pount=0;
-
-document.getElementById("decreassseBtn").onclick=function(){
-pount-=1;
-document.getElementById("countlllabel").innerHTML= pount;
-}
-
-document.getElementById("increassseBtn").onclick=function(){
-pount+=1;
-document.getElementById("countlllabel").innerHTML= pount;
-}
-
+// Setup for each product item
+setupCartItem("decreaseBtn", "increaseBtn", "countlabel");
+setupCartItem("decreasesBtn", "increasesBtn", "countslabel");
+setupCartItem("decreasessBtn", "increasessBtn", "countsslabel");
+setupCartItem("decreasesssBtn", "increasesssBtn", "countssslabel");
+setupCartItem("decreasseBtn", "increasseBtn", "countllabel");
+setupCartItem("decreassseBtn", "increassseBtn", "countlllabel");
 
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
