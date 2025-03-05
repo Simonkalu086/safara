@@ -389,6 +389,9 @@ input[type=checkbox] {
     padding: 16px;
 	margin-top:19px;
   }
+	body{
+		margin:0;
+	}
   .bg{
 	background-color:#f4f4f4;
 	height:1100px;
