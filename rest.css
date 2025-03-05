@@ -10,7 +10,10 @@ table,th,td{
  background-color:white;
  margin-top:20px;
  }
-
+.col-2{
+	  width:100%;
+	  margin:5px;
+  }
 th,td{
   padding:15px;
   }
