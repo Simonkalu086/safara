@@ -4,7 +4,7 @@ background-color:#fff;
 }
 table,th,td{
  border:1px solid white;
- margin:10%;
+ margin:7%;
  height:150px;
  border-collapse:collapse;
  background-color:white;
@@ -401,6 +401,16 @@ margin:0;
 	display:none;
 	
 }
+.sim {
+
+    top: 50%;
+    left: 50%;
+    
+    margin:100px 0 0 -25px;
+    -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
  .menu li{
 	 width:88%;
 	
@@ -545,10 +555,10 @@ justify-content:center;
         float: left;   
             /*divide each counter box in equal size*/  
             /* 4 counters of 25% of screen size*/  
-        width: 50%;
+        width: 47%;
 		  
             /*spacing between each box */  
-        padding: 0; 
+        padding: ; 
 		
 		
     }   
@@ -563,11 +573,11 @@ justify-content:center;
           
     /* Style the class named block*/  
     .blocks {   
-        padding: 3px;   
+        padding: 30px;   
         text-align: center;   
         background-color: #3a3a3a;  
         color: white;  
-		 padding-bottom: 65px;
+		 padding-bottom: 38px;
         }   
       
     /* Provide styling for when mouse will move over the counter*/    
@@ -590,7 +600,7 @@ justify-content:center;
 
 
 table,th,td{
- border:1px solid white;
+ border:2px solid white;
 width:100%;
  height:150px;
  border-collapse:collapse;
@@ -599,8 +609,9 @@ width:100%;
  }
 
 th,td{
-  padding:15px;
+
   width:100%;
+  padding:15px;
 }
   }
   h1{
